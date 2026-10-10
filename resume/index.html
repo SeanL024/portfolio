@@ -4,65 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sean Liu: Resume</title>
-    <link href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
-<body>
+<body class="resume">
     <nav>
         <a href="../">Home</a>
         <a href="../projects/">Projects</a>
         <a href="../contact/">Contact</a>
         <a href="https://github.com/SeanL024" target="_blank">GitHub</a>
-        <a href="./">Resume</a>
+        <a href="./"  class="current">Resume</a>
     </nav>
     <h1>Resume</h1>
-    <section>
+    <section class="education">
         <h2>Education</h2>
-        <article>
-            <h3>University of California, San Diego</h3>
-            <p>B.S. in Data Science</p>
-            <p>GPA: 4.00</p>
-            <p>
-                <time datetime="2025-09">September 2025</time> - Present
-            </p>
+
+        <article class="education-entry">
+            <div class="education-details">
+                <h3>University of California, San Diego</h3>
+                <p class="degree">B.S. in Data Science</p>
+                <p class="gpa">GPA: 4.00</p>
+                <p class="date">
+                    <time datetime="2025-09">September 2025</time>
+                    – Present
+                </p>
+            </div>
+            <img
+                class="organization-logo"
+                src="../images/UCSD.png"
+                alt="UC San Diego logo"
+            >
         </article>
-        <article>
-            <h3>Case Western Reserve University</h3>
-            <p>GPA: 3.84</p>
-            <p>
-                <time datetime="2023-08">August 2023</time> - 
-                <time datetime="2025-05">May 2025</time>
-            </p>
+
+        <article class="education-entry">
+            <div class="education-details">
+                <h3>Case Western Reserve University</h3>
+                <p class="degree">Coursework completed</p>
+                <p class="gpa">GPA: 3.84</p>
+                <p class="date">
+                    <time datetime="2023-08">August 2023</time>
+                    –
+                    <time datetime="2025-05">May 2025</time>
+                </p>
+            </div>
+            <img
+                class="organization-logo"
+                src="../images/CWRU.png"
+                alt="Case Western Reserve University logo"
+            >
         </article>
     </section>
-    <section>
+    <section class="experience">
         <h2>Experience</h2>
-        <article>
-            <h3>Van Andel Institute</h3>
-            <p>Summer Research Intern</p>
-            <p>
-                <time datetime="2024">Summer 2024</time>
-            </p>
+
+        <article class="experience-entry">
+            <div class="experience-details">
+                <h3>Data Design Engineering</h3>
+                <p class="role">Intern</p>
+                <p class="date">
+                    <time datetime="2026-08">August 2026</time>
+                    · Luxembourg, Luxembourg
+                </p>
+                <ul>
+                    <li>
+                        Worked with DDE personnel at Gradel LW to optimize
+                        carbon-fiber winding processes.
+                    </li>
+                    <li>
+                        Gained hands-on experience with manufacturing
+                        processes and process optimization.
+                    </li>
+                </ul>
+            </div>
+            <img
+                class="organization-logo"
+                src="../images/DDE.png"
+                alt="Data Design Engineering logo"
+            >
         </article>
-        <article>
-            <h3>Van Andel Institute</h3>
-            <p>Summer Research Intern</p>
-            <p>
-                <time datetime="2025">Summer 2025</time>
-            </p>
+
+        <article class="experience-entry">
+            <div class="experience-details">
+                <h3>UC San Diego</h3>
+                <p class="role">OPALS Mentor</p>
+                <p class="date">
+                    <time datetime="2026-07">July 2026</time>
+                    –
+                    <time datetime="2026-08">August 2026</time>
+                    · San Diego, CA
+                </p>
+                <ul>
+                    <li>
+                        Mentored two high school groups in the OPALS project,
+                        focusing on AI security and data analysis.
+                    </li>
+                    <li>
+                        One group was accepted to the IEEE BIBM 2026 UGHS
+                        Symposium, while the other was accepted to the
+                        2026 BMES High School Poster Expo.
+                    </li>
+                </ul>
+            </div>
+            <img
+                class="organization-logo"
+                src="../images/OPALS.png"
+                alt="UC San Diego logo"
+            >
         </article>
-        <article>
-            <h3>UCSD OPALS Program</h3>
-            <p>Mentor</p>
-            <p>
-                <time datetime="2026">Summer 2026</time>
-            </p>
+
+        <article class="experience-entry">
+            <div class="experience-details">
+                <h3>Van Andel Institute</h3>
+                <p class="role">Research Intern · Zhu Lab</p>
+                <p class="date">
+                    <time datetime="2025-06">June 2025</time>
+                    –
+                    <time datetime="2025-08">August 2025</time>
+                    · Grand Rapids, MI
+                </p>
+                <ul>
+                    <li>
+                        Worked in the Neurodegenerative Disease Research
+                        Department investigating the C9orf72 gene.
+                    </li>
+                    <li>
+                        Applied and evaluated DNA FISH protocols, testing
+                        experimental approaches to identify a reliable
+                        methodology for fluorescence imaging in ALS research.
+                    </li>
+                </ul>
+            </div>
+            <img
+                class="organization-logo"
+                src="../images/VAI.png"
+                alt="Van Andel Institute logo"
+            >
         </article>
-        <article>
-            <h3>Data Design Engineering</h3>
-            <p>Intern</p>
-            <p>
-                <time datetime="2026">Summer 2026</time>
-            </p>
+
+        <article class="experience-entry">
+            <div class="experience-details">
+                <h3>Van Andel Institute</h3>
+                <p class="role">Research Intern · Zhu Lab</p>
+                <p class="date">
+                    <time datetime="2024-06">June 2024</time>
+                    –
+                    <time datetime="2024-08">August 2024</time>
+                    · Grand Rapids, MI
+                </p>
+                <ul>
+                    <li>
+                        Worked in the Neurodegenerative Disease Research
+                        Department.
+                    </li>
+                    <li>
+                        Developed a more efficient pipeline for microglial
+                        skeletonization and analysis, helping researchers
+                        save time and establishing a standardized workflow
+                        for morphological analysis.
+                    </li>
+                </ul>
+            </div>
+            <img
+                class="organization-logo"
+                src="../images/VAI.png"
+                alt="Van Andel Institute logo"
+            >
         </article>
     </section>
 </body>
