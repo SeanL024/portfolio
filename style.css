@@ -157,3 +157,30 @@ label.color-scheme {
   font-size: 80%;
   font-family: inherit;
 }
+
+#profile-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-block: 1rem 2rem;
+}
+
+.stat {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 1rem;
+  border: 1px solid var(--border-color, #ccc);
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.stat strong {
+  font-size: 1.75rem;
+}
+
+.stat span {
+  font-size: 0.9rem;
+}
