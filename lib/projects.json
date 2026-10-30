@@ -3,55 +3,55 @@
         "title": "SkeleSketch: Microglial Morphology Analysis Tool",
         "year": "2024",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Developed an open-source Fiji/ImageJ tool using Java to automate microglial skeletonization and quantify cellular morphology, supporting research into microglial changes associated with ALS."
+        "description": "Developed an open-source Fiji/ImageJ tool using Java to automate microglial skeletonization and quantify cellular morphology, supporting research into microglial changes associated with ALS. This was done at Van Andel Institute during a summer internship."
     },
     {
         "title": "DNA FISH (Research Internship)",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Tested and refined experimental procedures to establish a reliable DNA fluorescence in situ hybridization (FISH) protocol for C9orf72 research, alongside experience in microscopy, cell culture, and Western blotting."
+        "description": "Tested and refined experimental procedures to establish a reliable DNA fluorescence in situ hybridization (FISH) protocol for C9orf72 research, alongside experience in microscopy, cell culture, and Western blotting. This was done at Van Andel Institute during a summer internship."
     },
     {
         "title": "NIH All of Us Data Analysis",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Utilized the NIH All of Us Research Program dataset to analyze the relationship between socioeconomic facotrs and the likelihood of conditions such as age related macular degeneration (AMD) and Type 2 diabetes (T2D)."
+        "description": "Utilized the NIH All of Us Research Program dataset to analyze the relationship between socioeconomic facotrs and the likelihood of conditions such as age related macular degeneration (AMD) and Type 2 diabetes (T2D). This was done at UC San Diego during a summer internship."
     },
     {
         "title": "Predicting Super Bowl LVIII Teams",
         "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Used web scraping to collect NFL data from 2002 to 2023 and utilized a random forest model to predict which teams would reach Super Bowl LVIII."
+        "description": "Used web scraping to collect NFL data from 2002 to 2023 and utilized a random forest model to predict which teams would reach Super Bowl LVIII. This was done at Case Western Reserve University during a the school year."
     },
     {
         "title": "Analyzing Social Media Usage and Addiction Patterns",
         "year": "2025",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Analyzed behavioral and emotional social media usage data using Python, clustering, statistical hypothesis testing, and decision trees to identify distinct user engagement patterns. Engineered behavioral metrics to uncover relationships between app-switching habits, usage intensity, and emotional states, highlighting the limitations of screen time alone as an indicator of problematic usage."
+        "description": "Analyzed behavioral and emotional social media usage data using Python, clustering, statistical hypothesis testing, and decision trees to identify distinct user engagement patterns. Engineered behavioral metrics to uncover relationships between app-switching habits, usage intensity, and emotional states, highlighting the limitations of screen time alone as an indicator of problematic usage. This was done at Case Western Reserve University during a the school year."
     },
     {
         "title": "NBA Draft Efficiency: Player Performance and Team Success",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Analyzed web scraped NBA draft data from 1989–2025 using correlation analysis and statistical comparisons to evaluate how draft position predicts player performance and whether drafting efficiency translates to team playoff success."
+        "description": "Analyzed web scraped NBA draft data from 1989–2025 using correlation analysis and statistical comparisons to evaluate how draft position predicts player performance and whether drafting efficiency translates to team playoff success. This was done at UC San Diego during a the school year."
     },
     {
         "title": "Blue Side Advantage in Professional League of Legends",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Analyzed 2022 professional League of Legends matches to evaluate blue-side win-rate advantage and predict match outcomes using early-game statistics. Applied statistical testing, feature engineering, and Random Forest optimization to achieve 66.68% prediction accuracy while evaluating model fairness across teams' starting sides."
+        "description": "Analyzed 2022 professional League of Legends matches to evaluate blue-side win-rate advantage and predict match outcomes using early-game statistics. Applied statistical testing, feature engineering, and Random Forest optimization to achieve 66.68% prediction accuracy while evaluating model fairness across teams' starting sides. This was done at UC San Diego during a the school year."
     },
     {
         "title": "FPRO-Class Price Premium Across Retailers",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Analyzed Food Processing classification and product pricing across Walmart, Target, and Whole Foods to compare prices and quantify the associated price premium, using data visualization to communicate differences in pricing across stores."
+        "description": "Analyzed Food Processing classification and product pricing across Walmart, Target, and Whole Foods to compare prices and quantify the associated price premium, using data visualization to communicate differences in pricing across stores. This was done at UC San Diego during a the school year."
     },
     {
         "title": "Persuasive Visualization of Global Reliance on Renewable Energy",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Created persuasive and deceptive data visualizations exploring the global shift toward renewable energy, demonstrating how visualization choices can influence interpretation and shape the audience's perception of energy trends as well as how to argue two different sides despite using the same dataset."
+        "description": "Created persuasive and deceptive data visualizations exploring the global shift toward renewable energy, demonstrating how visualization choices can influence interpretation and shape the audience's perception of energy trends as well as how to argue two different sides despite using the same dataset. This was done at UC San Diego during a the school year."
     },
     {
         "title": "Architecto maxime maiores commodi?",
