@@ -245,3 +245,142 @@ small {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+
+#stats {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 1400px;
+  margin: 2rem auto;
+}
+
+.stat-card {
+  background: #f3f4f6;
+  color: #222;
+  padding: 1rem;
+  border-radius: 12px;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.stat-card h2 {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #666;
+  margin: 0 0 0.75rem;
+}
+
+.stat-card p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Smaller screens */
+@media (max-width: 900px) {
+  #stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 500px) {
+  #stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.gridlines line {
+  stroke-opacity: 0.25;
+  stroke-width: 2px;
+}
+
+.gridlines path {
+  stroke: none;
+}
+dl.info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem 1rem;
+  margin: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 12px 16px;
+  backdrop-filter: blur(6px);
+
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #333;
+
+  pointer-events: none;
+}
+
+/* Style the labels */
+.tooltip dt {
+  font-weight: 600;
+  color: #666;
+}
+
+/* Style the values */
+.tooltip dd {
+  margin: 0 0 6px 0;
+  font-weight: 500;
+}
+
+/* Remove spacing after the final value */
+.tooltip dd:last-child {
+  margin-bottom: 0;
+}
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8; /* 5 + 3 */
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: rgb(122, 122, 122);
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+circle.selected {
+  fill: #ff6b6b;
+}
+#language-breakdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+  max-width: 1400px;
+  margin: 1rem auto 2rem;
+}
+
+#language-breakdown .stat-card span {
+  display: block;
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+}

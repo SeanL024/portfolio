@@ -15,9 +15,10 @@ currentLink?.classList.add('current');
 let pages = [
     { url: '', title: 'Home' },
     { url: 'projects/', title: 'Projects' },
+    { url: 'meta/', title: 'Meta' },
+    { url: 'resume/', title: 'Resume' },
     { url: 'contact/', title: 'Contact' },
     { url: 'https://github.com/SeanL024', title: 'GitHub' },
-    { url: 'resume/', title: 'Resume' },
 ];
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
     ? "/"
