@@ -384,3 +384,10 @@ circle.selected {
   color: #666;
   margin-top: 0.5rem;
 }
+
+.projects img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+}

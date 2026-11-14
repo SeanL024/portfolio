@@ -21,7 +21,7 @@
         "title": "Predicting Super Bowl LVIII Teams",
         "year": "2023",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Used web scraping to collect NFL data from 2002 to 2023 and utilized a random forest model to predict which teams would reach Super Bowl LVIII. This was done at Case Western Reserve University during a the school year."
+        "description": "Used web scraping to collect NFL data from 2002 to 2023 and utilized a random forest model to predict which teams would reach Super Bowl LVIII. This was done at Case Western Reserve University during the school year."
     },
     {
         "title": "Analyzing Social Media Usage and Addiction Patterns",
@@ -33,35 +33,35 @@
         "title": "NBA Draft Efficiency: Player Performance and Team Success",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Analyzed web scraped NBA draft data from 1989–2025 using correlation analysis and statistical comparisons to evaluate how draft position predicts player performance and whether drafting efficiency translates to team playoff success. This was done at UC San Diego during a the school year."
+        "description": "Analyzed web scraped NBA draft data from 1989–2025 using correlation analysis and statistical comparisons to evaluate how draft position predicts player performance and whether drafting efficiency translates to team playoff success. This was done at UC San Diego during the school year."
     },
     {
         "title": "Blue Side Advantage in Professional League of Legends",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Analyzed 2022 professional League of Legends matches to evaluate blue-side win-rate advantage and predict match outcomes using early-game statistics. Applied statistical testing, feature engineering, and Random Forest optimization to achieve 66.68% prediction accuracy while evaluating model fairness across teams' starting sides. This was done at UC San Diego during a the school year."
+        "description": "Analyzed 2022 professional League of Legends matches to evaluate blue-side win-rate advantage and predict match outcomes using early-game statistics. Applied statistical testing, feature engineering, and Random Forest optimization to achieve 66.68% prediction accuracy while evaluating model fairness across teams' starting sides. This was done at UC San Diego during the school year."
     },
     {
         "title": "FPRO-Class Price Premium Across Retailers",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Analyzed Food Processing classification and product pricing across Walmart, Target, and Whole Foods to compare prices and quantify the associated price premium, using data visualization to communicate differences in pricing across stores. This was done at UC San Diego during a the school year."
+        "description": "Analyzed Food Processing classification and product pricing across Walmart, Target, and Whole Foods to compare prices and quantify the associated price premium, using data visualization to communicate differences in pricing across stores. This was done at UC San Diego during the school year."
     },
     {
         "title": "Persuasive Visualization of Global Reliance on Renewable Energy",
         "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Created persuasive and deceptive data visualizations exploring the global shift toward renewable energy, demonstrating how visualization choices can influence interpretation and shape the audience's perception of energy trends as well as how to argue two different sides despite using the same dataset. This was done at UC San Diego during a the school year."
+        "description": "Created persuasive and deceptive data visualizations exploring the global shift toward renewable energy, demonstrating how visualization choices can influence interpretation and shape the audience's perception of energy trends as well as how to argue two different sides despite using the same dataset. This was done at UC San Diego during the school year."
     },
     {
-        "title": "Architecto maxime maiores commodi?",
+        "title": "Bikewatching: Boston Bluebikes Traffic Visualization",
         "year": "2026",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quia dolorum deleniti sint illum sunt reprehenderit dicta eum corrupti consequatur harum voluptatum asperiores, rerum praesentium temporibus, voluptatem quam error, consectetur sit autem facilis. Recusandae dolorem incidunt qui odio sequi."
+        "image": "../images/map.png",
+        "description": "An interactive map visualizing Boston and Cambridge bike-sharing traffic using Mapbox and D3.js. Features time-based filtering, station traffic volumes, arrival and departure patterns, and bike lane infrastructure. This was done at UC San Diego during the school year."
     },
     {
         "title": "At neque consequatur totam.",
-        "year": "2027",
+        "year": "2026",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Accusamus vero deserunt nostrum quam voluptas, mollitia debitis, sint voluptates aut tempora quasi, neque inventore. Quia similique delectus, voluptate ea laboriosam aperiam! Excepturi quos reprehenderit consectetur natus sit laborum corporis!"
     },
